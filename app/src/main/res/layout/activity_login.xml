@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Login">
+
+
+
+    <ImageView
+        android:padding="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="BookWorm Cycle"
+        android:textAllCaps="true"
+        android:textColor="#00BCD4"
+        android:textSize="25sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="25dp"
+        app:cardCornerRadius="25dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:cardElevation="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:padding="10dp">
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Login"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:gravity="center"/>
+
+
+                    <EditText
+                        android:id="@+id/etemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#00BCD4"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="#000000"
+                        android:textSize="11sp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="11sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColorHint="#000000"
+                        android:inputType="textPassword"
+                        android:hint="Password"
+                        android:backgroundTint="#00BCD4"
+                        android:id="@+id/etpaswd"/>
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Login"
+                        android:textSize="18sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#ffffff"
+                        android:id="@+id/btnlgin"
+                        android:backgroundTint="#00BCD4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="@string/ulsgnup"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#F80202"
+        android:textStyle="bold"
+        android:linksClickable="true"
+        android:id="@+id/tvsignup"/>
+</LinearLayout>

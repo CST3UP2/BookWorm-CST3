@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AdminDashboard">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin"
+        android:textStyle="italic"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/btnaddbooks"
+        style="@style/Button"
+        android:text="BOOKS"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="#1CA7E6"
+        />
+
+
+    <Button
+        android:id="@+id/btnviewuser"
+        style="@style/Button"
+        android:text="user"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="#4CAF50"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/btnlogout"
+        style="@style/Button"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>

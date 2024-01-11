@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Userhome">
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:orientation="vertical">
+
+
+      <ImageView
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@drawable/logo"
+          android:layout_margin="10dp"
+          android:padding="4dp"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="BOOKWORM CYCLE"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+           />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="2">
+         <LinearLayout
+             android:id="@+id/addbooks"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:foreground="?android:attr/selectableItemBackground"
+             android:clickable="true"
+             android:background="@drawable/back"
+             android:padding="10dp"
+             android:layout_margin="10dp"
+             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Books"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:src="@drawable/add"
+                />
+
+
+
+         </LinearLayout>
+         <LinearLayout
+             android:id="@+id/searchbooksbtn"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:foreground="?android:attr/selectableItemBackground"
+             android:clickable="true"
+             android:background="@drawable/back"
+             android:backgroundTint="#9703A9F4"
+             android:padding="10dp"
+             android:layout_margin="10dp"
+             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search Books"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:src="@drawable/search_add"
+              />
+
+
+
+         </LinearLayout>
+      </LinearLayout>
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="2">
+         <LinearLayout
+             android:id="@+id/btnviewrequest"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:foreground="?android:attr/selectableItemBackground"
+             android:clickable="true"
+             android:background="@drawable/back"
+             android:backgroundTint="#5443A047"
+             android:padding="10dp"
+             android:layout_margin="10dp"
+             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Request"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:src="@drawable/request"
+                />
+
+
+
+         </LinearLayout>
+
+
+         <LinearLayout
+             android:id="@+id/linearviewbook"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:foreground="?android:attr/selectableItemBackground"
+             android:clickable="true"
+             android:background="@drawable/back"
+             android:backgroundTint="#5443A047"
+             android:padding="10dp"
+             android:layout_margin="10dp"
+             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Books"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:src="@drawable/logo"
+                />
+
+
+
+         </LinearLayout>
+
+      </LinearLayout>
+
+   </LinearLayout>
+
+
+
+
+</FrameLayout>

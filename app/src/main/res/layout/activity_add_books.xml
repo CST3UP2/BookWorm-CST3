@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AddBooks">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD BOOKS"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+
+    <ImageView
+        android:id="@+id/imgadd"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/add_a_photo"/>
+
+
+    <EditText
+        android:id="@+id/etbname"
+       style="@style/Edittext"
+        android:hint="Enter Book Name"/>
+
+    <EditText
+        android:id="@+id/etbauthor"
+        style="@style/Edittext"
+        android:hint="Enter Book Author"/>
+
+
+    <EditText
+        android:id="@+id/etbsec"
+        style="@style/Edittext"
+        android:hint="Enter Book Description"/>
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btnadd"
+       style="@style/Button"
+        android:text="Add"
+        />
+
+    <Button
+        android:id="@+id/btnshow"
+        style="@style/Button"
+        android:text="Show"
+        />
+
+
+</LinearLayout>
